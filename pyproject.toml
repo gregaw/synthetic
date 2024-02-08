@@ -1,12 +1,12 @@
 [tool.poetry]
 name = "synthetic"
-version = "0.1.0"
+version = "0.2.0"
 description = ""
 authors = ["Greg Gawron <greg.gawron@liveramp.com>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = "^3.11"
+python = "^3.12"
 numpy = "^1.26.4"
 pandas = "^2.2.0"
 scipy = "^1.12.0"
