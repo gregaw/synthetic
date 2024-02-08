@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "synthetic"
+version = "0.1.0"
+description = ""
+authors = ["Greg Gawron <greg.gawron@liveramp.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+numpy = "^1.26.4"
+pandas = "^2.2.0"
+scipy = "^1.12.0"
+private-pgm = {git = "ssh://git@github.com/LiveRamp/fork-private-pgm.git"}
+
+
+[tool.poetry.group.test.dependencies]
+pytest = "^8.0.0"
+
+[tool.poetry.group.dev.dependencies]
+jupyter = "^1.0.0"
+
+[build-system]
+requires = ["poetry-core", "setuptools"]
+build-backend = "poetry.core.masonry.api"
